@@ -1,9 +1,10 @@
 #include <iostream>
 
-using namespace std;
+// using namespace std; interdit pour 42
 
 int	main()
 {
-	cout << "Hello world!" << endl;
+	// std :: cout << "Hello world!" << endl; devient:
+	std :: cout << "Hello world!" << std :: endl;
 	return 0;
 }
